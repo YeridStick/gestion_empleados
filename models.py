@@ -1,11 +1,4 @@
-"""
-models.py - Backend / Capa de Modelo
-Curso: Estructura de Datos (301305) - UNAD
-Fase 2 - Abstracción y Diseño
-"""
-
 from datetime import date
-
 
 # Tabla de cargos y valores por día de trabajo
 CARGOS_VALORES = {
@@ -15,7 +8,6 @@ CARGOS_VALORES = {
     "Mecánico":            80000,
     "Soldador":            90000,
 }
-
 
 class GestionEmpleados:
     """
